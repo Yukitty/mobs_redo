@@ -1215,7 +1215,7 @@ local smart_mobs = function(self, s, p, dist, dtime)
 			mob_sound(self, self.sounds.random)
 		else
 			-- yay i found path
-			mob_sound(self, self.sounds.attack)
+			mob_sound(self, self.sounds.war_cry)
 
 			set_velocity(self, self.walk_velocity)
 
